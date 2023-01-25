@@ -28,14 +28,14 @@ to setup
     move-to one-of patches
     set defector? 0
     set color white
-    set size 3
+    set size
     set shape "person"
   ]
   ; Creates 10 cows per agent and sets their properties
   create-cows  no_herders * 10 [
     move-to one-of patches
     set color brown
-    set size 3
+    set size 5
     set shape "cow"
   ]
   ; Assigns a random herder to each cow that doesn't have an owner yet
@@ -530,7 +530,7 @@ policing-effectiveness
 policing-effectiveness
 0
 1
-0.2
+0.3
 0.1
 1
 NIL
